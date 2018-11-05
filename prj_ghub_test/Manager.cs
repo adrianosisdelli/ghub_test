@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace prj_ghub_test
 {
-    class Manager
+    public class Manager
     {
+        public string nome { get; private set; }
     }
 }
