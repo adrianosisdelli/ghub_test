@@ -13,6 +13,14 @@ namespace prj_ghub_test
         public string cidade { get; private set; }
         public string telefone { get; private set; }
 
+        private Manager(String nome, string endereco, string cidade, string telefone)
+        {
+            this.nome = nome;
+            this.endereco = endereco;
+            this.cidade = cidade;
+            this.telefone = telefone;
+        }
+
         public void setData(IRegistrador registrador)
         {
             registrador.setInfo(this.nome, this.endereco, this.cidade, this.telefone);
