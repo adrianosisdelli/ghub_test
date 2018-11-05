@@ -9,5 +9,8 @@ namespace prj_ghub_test
     public class Manager
     {
         public string nome { get; private set; }
+        public string endereco { get; private set; }
+        public string cidade { get; private set; }
+        public string telefone { get; private set; }
     }
 }
